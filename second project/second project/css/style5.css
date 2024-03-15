@@ -1,0 +1,59 @@
+.header{
+    text-align: right;
+}
+body{
+  background-image: url(../images/R\ \(3\).gif);
+    background-position: center bottom;
+    background-size: cover;
+
+}
+.header {
+  text-align: right;
+  text-decoration: none;
+  word-spacing: 30px;
+  color: white;
+}
+.icons {
+    text-align: center;
+    color: white;
+  }
+  .brands {
+    font-size: 40px;
+    text-align: center;
+  }
+  .blue {
+    color: blue;
+  }
+  .blue:hover{
+    opacity: 0.8;
+  }
+  
+  .red {
+    color: red;
+  }
+  .red:hover{
+    opacity: 0.8;
+  }
+  .skyblue {
+    color: skyblue;
+  }
+  .skyblue:hover{
+    opacity: 0.8;
+  }
+  .black {
+    color: gray;
+  }
+  .black:hover{
+    opacity: 0.8;
+  }
+  
+  .pink {
+    color: pink;
+  }
+  .pink:hover{
+    opacity: 0.8;
+  }
+  .copy {
+    text-align: center;
+    color: gray;
+  }

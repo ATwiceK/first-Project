@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-image: url(../images/R.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+.heading{
+    font-size: 100px;
+    font-family: "Madimi One", sans-serif;
+}
+.user{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.box{
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.pw{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.loginForm{
+    display: inline-block;
+}
+.register{
+    color:gray;
+}
+
+.login:hover{
+    opacity: 0.8;
+}
+

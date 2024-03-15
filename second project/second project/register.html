@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register form</title>
+    <link rel="stylesheet" href="./css/style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header><h1 class="heading">Register Here</h1></header>
+    <main>
+<div class="table">
+  <fieldset>
+    <legend>Fill your Information</legend>
+    <form action="login.html">
+      <table>
+        <tr>
+          <td>
+            <label for="firstName">First Name</label>
+          </td>
+          <td>
+            <input type="text" name="firstName" id="firstName" required />
+          </td>
+          <td>
+            <label for="LastName">Last Name</label>
+          </td>
+          <td>
+            <input type="text" name="LastName" id="LastName" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Email">Email</label>
+          </td>
+          <td>
+            <input type="email" name="Email" id="Email" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Password</label>
+          </td>
+          <td>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Re-Password">Re Password</label>
+          </td>
+          <td>
+            <input
+              type="Re-Password"
+              name="Re-Password"
+              id="Re-Password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Gender</h3>
+          </td>
+          <td>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male" value="male" />
+            <label for="Female">Female</label>
+            <input
+              type="radio"
+              name="Gender"
+              id="Female"
+              value="Female"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Nationality</h3>
+          </td>
+          <td>
+            <select name="Nationality" id="Nationality" required>
+              <option value="">Select</option>
+              <option value="mm">Myanmar</option>
+              <option value="us">United State</option>
+              <option value="uk">United Kingdom</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="agree" id="agree" required />
+            <label for="agree">I'm agreed</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit">submit</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </fieldset>
+</div>
+    </main>
+    <footer class="footer">
+      <div >
+        <a class="about" href="about.html">About US</a>
+        <a class="contact" href="contact.html">Contact Us</a>
+      </div>
+      <p>&copy;Copyright 2024, @ak</p>
+    </footer>
+  </body>
+</html>

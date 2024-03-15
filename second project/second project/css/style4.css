@@ -1,0 +1,47 @@
+body{
+    background-image: url(../images/wp2757874.gif);
+    color: white;
+}
+.ak{
+    background-image: url(../images/ef16e4e68b0d3cb81e6bb8a8c3258d7e.gif);
+    background-position: right 300px top;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    font-size: 20px;
+}
+.heading{
+    text-decoration: underline;
+}
+.gray{
+    color: gray;
+
+}
+.name{
+    color: white;
+
+}
+.AkPhoto{
+    background-image: url(../images/53080056_552479135261957_4210643086386135040_n.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    margin-left: 400px;
+    background-position: right 400px top;
+    font-size: 25px;
+}
+.header {
+    text-align: right;
+    text-decoration: none;
+    word-spacing: 30px;
+    color: white;
+  }
+.icons{
+    color: white;
+    text-align: center;
+}
+.copy{
+    color: gray;
+    text-align: center;
+}
+.blue{
+    color: blue;
+}

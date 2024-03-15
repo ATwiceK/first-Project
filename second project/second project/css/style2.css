@@ -1,0 +1,29 @@
+.form{
+    display: inline-block;
+    text-align: left;
+}
+body{
+    background-image: url(../images/artworks-000361138692-ahwa47-t500x500.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    color: white;
+}
+.heading{
+    font-family: "Madimi One", sans-serif;
+}
+.table{
+    background-image: url(../images/Innovation-amico.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.footer{
+    margin-top: 200px;
+    text-align: center;
+    color: whitesmoke;
+}
+.about{
+    color: white;
+}
+.contact{
+    color: white;
+}
